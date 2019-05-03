@@ -39,8 +39,8 @@ layout: default
 					<div class="container clearfix">&nbsp;</div>
 					<div class="video-wrap">
 						<video poster="/images/videos/cover.png" preload="auto" loop autoplay muted>
-							<source src='/images/videos/cover.mp4' type='video/mp4' />
-							<!-- <source src='images/videos/explore.webm' type='video/webm' /> -->
+							<source src='/images/videos/cover_min.mp4' type='video/mp4' />
+							<!-- <source src='images/videos/cover_min.webm' type='video/webm' /> -->
 						</video>
 						<div class="video-overlay" style="background-color: rgba(0,0,0,0.55);"></div>
 					</div>
@@ -208,17 +208,28 @@ layout: default
 				</section>
 				<section id="content">
 
-					{%include rsvp.html%}
+						{%include rsvp.html%}
 
+						<div class="slider-parallax-inner">
+							<div class="full-screen force-full-screen section nopadding nomargin noborder ohidden">
+								<div class="container clearfix">&nbsp;</div>
+								<div class="video-wrap">
+									<video poster="/images/videos/cover.png" preload="auto" loop autoplay muted>
+										<source src='/images/videos/cover.mp4' type='video/mp4' />
+										<!-- <source src='images/videos/explore.webm' type='video/webm' /> -->
+									</video>
+									<div class="video-overlay" style="background-color: rgba(0,0,0,0.55);"></div>
+								</div>
+							</div>
+						</div>
 
 				<div id="section-locations" class="heading-block title-center topmargin-lg page-section">
 					<h2>Locations.</h2>
 					<span>우리의 추억이 그려질 사랑스러운 루프탑.</span>
 				</div>
 
-			</div>
-
 			{%include contact.html%}
+
 
 
 		</div>

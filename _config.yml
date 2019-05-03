@@ -23,7 +23,7 @@ google_analytics: UA-134096157-1
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
 
 #

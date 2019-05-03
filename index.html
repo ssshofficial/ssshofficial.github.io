@@ -34,7 +34,7 @@ layout: default
 
 			<div class="slider-parallax-inner">
 				<div class="video-wrap">
-					<video id="slide-video" poster="/images/videos/explore.jpg" preload="auto" loop autoplay>
+					<video id="slide-video" poster="/images/videos/explore.jpg" preload="auto" loop autoplay muted>
 						<source src='/images/videos/cover.mp4' type='video/mp4' />
 					</video>
 					<div class="video-overlay" style="height: 100%; background-color: rgba(0,0,0,0.55);"></div>
@@ -64,11 +64,12 @@ layout: default
 
 					<ul class="one-page-menu">
 						<li><a href="#" data-href="#most-toppest"><div>Start</div></a></li>
-						<li><a href="#" data-href="#section-couple"><div>The Couple</div></a></li>
+						<li><a href="#" data-href="#section-hosts"><div>
+							Hosts</div></a></li>
 						<li><a href="#" data-href="#section-gallery"><div>Gallery</div></a></li>
-						<li><a href="#" data-href="#section-events"><div>Events Schedule</div></a></li>
-						<li><a href="#" data-href="#section-locations"><div>Locations</div></a></li>
+						<li><a href="#" data-href="#section-events"><div>Special</div></a></li>
 						<li><a href="#" data-href="#section-rsvp"><div>RSVP</div></a></li>
+						<li><a href="#" data-href="#section-locations"><div>Locations</div></a></li>
 					</ul>
 
 				</nav><!-- #primary-menu end -->
@@ -87,12 +88,12 @@ layout: default
 
 			<div class="container clearfix">
 
-				<div id="section-couple" class="heading-block title-center page-section">
+				<div id="section-hosts" class="heading-block title-center page-section">
 					<h2>Hosts.</h2>
 					<span>루프탑을 그리는 사람들</span>
 				</div>
 
-{%include team.html%}
+				{%include team.html%}
 
 
 				<div class="clear"></div>

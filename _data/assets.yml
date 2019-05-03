@@ -1,5 +1,5 @@
 css:
-   - /assets/css/bootstrap.css
+   - /assets/css/bootstrap.min.css
    - /assets/css/style.css
    # - /assets/css/swiper.css
    - /assets/css/dark.css

@@ -27,9 +27,7 @@ theme: jekyll-theme-cayman
 plugins:
 
 #
-year: 2019
-month: 5
-day: 10
+rsvplink: #
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

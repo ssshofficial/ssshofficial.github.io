@@ -1,0 +1,43 @@
+<div class="row">
+
+
+
+    {% for label in site.data.rawdata.outdoor %}
+    <article class="portfolio-item indoor">
+      <div class="portfolio-image">
+        <img src="/images/dataset/out{{label.index}}.png" alt="Open Imagination">
+        <!-- <div class="portfolio-overlay">
+          <a href="{{label.link1}}" class="icon" data-lightbox="image">{{label.num1}}</a>
+          <a class="icon" data-lightbox="image">{{label.num1}}</a>
+        </div> -->
+      </div>
+      <div class="portfolio-desc">
+        <h3>{{label.label}}</h3>
+      </div>
+    </article>
+    {% endfor %}
+
+    {% for member in site.data.team %}
+    <div class="col-lg-2 col-md-4 bottommargin">
+      <div class="team">
+        <div class="team-image">
+          <img src="images/team/{{member.photo}}.jpg" alt="{{member.name}}">
+        </div>
+        <div class="team-desc">
+          <div class="team-title"><h4>{{member.name}}</h4><span>{{member.role}}</span></div>
+          <div class="team-content">{{member.comment}}</div>
+          <a href="{{member.facebook}}" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+            <i class="icon-facebook"></i>
+            <i class="icon-facebook"></i>
+          </a>
+          <a href="{{member.instagram}}" class="social-icon inline-block si-small si-light si-rounded si-instagram">
+            <i class="icon-instagram"></i>
+            <i class="icon-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
+</div>

@@ -1,0 +1,221 @@
+---
+layout: default
+---
+<div id="wrapper" class="clearfix">
+
+	<div id="most-toppest"></div>
+
+	<section id="slider" class="slider-element slider-parallax full-screen page-section dark clearfix">
+
+		<div class="slider-parallax-inner">
+
+			<div class="fslider" data-speed="2000" data-pause="6000" data-animation="fade" data-arrows="false" data-pagi="false" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; background-color: #333;">
+				<div class="flexslider" style="height: 100% !important;">
+					<div class="slider-wrap" style="height: inherit;">
+						<div class="slide" style="background: url('images/wedding/13.jpg') center center; background-size: cover; height: 100% !important;"></div>
+						<div class="slide" style="background: url('images/wedding/16.jpg') center center; background-size: cover; height: 100% !important;"></div>
+						<div class="slide" style="background: url('images/wedding/12.jpg') center center; background-size: cover; height: 100% !important;"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid vertical-middle dark center clearfix" style="z-index: 2;">
+
+				<div class="wedding-head clearfix">
+					<div class="first-name">ROOFTOP </br>PARTY</div>
+					<div class="and">&amp;</div>
+					<div class="last-name">SSSH<span>상상실현</span></div>
+				</div>
+
+				<div class="divider divider-short divider-center"><i class="icon-heart3"></i></div>
+
+				<p class="lead">Getting <strong>Hitched</strong> on:</p>
+
+				<div id="countdown" class="countdown countdown-large coming-soon divcenter" style="max-width:700px;"></div>
+
+			</div>
+
+			<a href="#" data-scrollto="#section-couple" class="one-page-arrow"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
+
+		</div>
+
+	</section>
+
+	<!-- Header
+	============================================= -->
+	<header id="header">
+
+		<div id="header-wrap">
+
+			<div class="container clearfix">
+
+				<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+				<div id="logo"></div>
+
+				<!-- Primary Navigation
+				============================================= -->
+				<nav id="primary-menu" class="style-2 center">
+
+					<ul class="one-page-menu">
+						<li><a href="#" data-href="#most-toppest"><div>Start</div></a></li>
+						<li><a href="#" data-href="#section-couple"><div>The Couple</div></a></li>
+						<li><a href="#" data-href="#section-gallery"><div>Gallery</div></a></li>
+						<li><a href="#" data-href="#section-events"><div>Events Schedule</div></a></li>
+						<li><a href="#" data-href="#section-locations"><div>Locations</div></a></li>
+						<li><a href="#" data-href="#section-rsvp"><div>RSVP</div></a></li>
+					</ul>
+
+				</nav><!-- #primary-menu end -->
+
+			</div>
+
+		</div>
+
+	</header><!-- #header end -->
+
+	<!-- Content
+	============================================= -->
+	<section id="content">
+
+		<div class="content-wrap">
+
+			<div class="container clearfix">
+
+				<div id="section-couple" class="heading-block title-center page-section">
+					<h2>Hosts.</h2>
+					<span>루프탑을 그리는 사람들</span>
+				</div>
+
+{%include team.html%}
+
+
+				<div class="clear"></div>
+
+				<div id="section-gallery" class="heading-block center topmargin page-section">
+					<h2>Gallery.</h2>
+					<span>우리의 지난 파티를 확인해보세요.</span>
+				</div>
+
+				<div class="fslider flex-thumb-grid grid-12 bottommargin-lg" data-pagi="false" data-arrows="false" data-thumbs="true">
+					<div class="flexslider">
+						<div class="slider-wrap">
+							{% for i in (1..10) %}
+							<div class="slide" data-thumb="images/previousparty/{{i}}.jpg"><img src="images/previousparty/{{i}}.jpg" alt="{{i}}"></div>
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+
+				<div class="clear"></div>
+
+				<div id="section-events" class="heading-block title-center topmargin-lg page-section">
+					<h2>Events Details.</h2>
+					<span>왜 특별할까요?</span>
+				</div>
+
+				<div class="col_one_third">
+					<div class="feature-box center media-box fbox-bg">
+						<div class="fbox-media">
+							<img src="images/wedding/events/cocktail.jpg" alt="Image">
+						</div>
+						<div class="fbox-desc">
+							<h3>루프탑 파티<span class="subtitle">DJ, Cocktails and Hiphop</span></h3>
+						</div>
+					</div>
+				</div>
+
+				<div class="col_one_third">
+					<div class="feature-box center media-box fbox-bg">
+						<div class="fbox-media">
+							<img src="images/wedding/events/wedding.jpg" alt="Image">
+						</div>
+						<div class="fbox-desc">
+							<h3>오직, 선착순 80분만.<span class="subtitle">한정된 인원만 모십니다.</span></h3>
+						</div>
+					</div>
+				</div>
+
+				<div class="col_one_third col_last">
+					<div class="feature-box center media-box fbox-bg">
+						<div class="fbox-media">
+							<img src="images/wedding/events/afterwedding.jpg" alt="Image">
+						</div>
+						<div class="fbox-desc">
+							<h3>Networks<span class="subtitle">DJ, Model, 공학자, 사업가.. 다양한 사람을 만나보세요.</span></h3>
+						</div>
+					</div>
+				</div>
+
+				<!-- <div class="clear"></div>-->
+
+			</section>
+
+				<section id="section-count" class="page-section" style="margin-top: 0;">
+					<div class="section dark parallax nobottommargin" style="margin-top: 0; padding: 40px 0;background-image: url('images/parallax.jpg');" data-bottom-top="background-position:0px 100px;" data-top-bottom="background-position:0px -300px;">
+
+						<div class="container clearfix">
+
+							<div class="col_one_fourth nobottommargin center" data-animate="bounceIn">
+								<i class="i-plain i-xlarge divcenter nobottommargin icon-home2"></i>
+								<div class="counter counter-lined"><span data-from="100" data-to="3654000" data-refresh-interval="10" data-speed="2000"> KRW</span></div>
+								<h5>투자 금액</h5>
+							</div>
+
+							<div class="col_one_fourth nobottommargin center" data-animate="bounceIn" data-delay="200">
+								<i class="i-plain i-xlarge divcenter nobottommargin icon-leaf"></i>
+								<div class="counter counter-lined"><span data-from="0" data-to="6" data-refresh-interval="10" data-speed="2500"></span></div>
+								<h5>DJs</h5>
+							</div>
+
+							<div class="col_one_fourth nobottommargin center" data-animate="bounceIn" data-delay="400">
+								<i class="i-plain i-xlarge divcenter nobottommargin icon-coffee2"></i>
+								<div class="counter counter-lined"><span data-from="0" data-to="90" data-refresh-interval="25" data-speed="3500"></span></div>
+								<h5>Participants</h5>
+							</div>
+
+							<div class="col_one_fourth nobottommargin center col_last" data-animate="bounceIn" data-delay="600">
+								<i class="i-plain i-xlarge divcenter nobottommargin icon-book"></i>
+								<div class="counter counter-lined"><span data-from="0" data-to="351" data-refresh-interval="10" data-speed="2700"></span>+</div>
+								<h5>Cups of Alchols</h5>
+							</div>
+						</div>
+					</div>
+
+				</section>
+				<section id="content">
+
+					<div class="section notopmargin footer-stick">
+						<div class="container clearfix">
+							<div id="section-rsvp" class="heading-block title-center topmargin page-section">
+								<h2>RSVP.</h2>
+								<span>지금, 늦기 전에 예매하세요. 선착순 80분만 모십니다.</span>
+							</div>
+							<div class="clearfix center">
+										<a class="button button-desc button-rounded button-dark" data-container="body" data-toggle="popover" data-placement="left" data-content="1차 얼리버드 마감되었습니다." data-original-title="" title=""><div>1차 얼리버드 (20명)</div><span>10,000KRW with 2 free drink</span></a>
+<!--
+										<button type="button" class="button button-desc button-rounded button-dark btn btn-secondary" data-container="body" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." data-original-title="" title=""><div>1차 얼리버드 (20명)</div><span>10,000KRW with 2free drink</span></button> -->
+
+										<a href="#" class="button button-desc button-rounded"><div>2차 얼리버드 (60명)</div><span>10,000KRW with 1 free drink</span></a>
+										<a class="button button-desc button-dark button-rounded"><div>현장 구매 (잔여수량)</div><span>잔여수량 없을 시 현장입장 불가</span></a>
+							</div>
+						</div>
+					</div>
+
+
+				<div id="section-locations" class="heading-block title-center topmargin-lg page-section">
+					<h2>Locations.</h2>
+					<span>우리의 추억이 그려질 사랑스러운 루프탑.</span>
+				</div>
+
+			</div>
+
+			{%include contact.html%}
+
+
+		</div>
+
+	</section><!-- #content end -->
+
+
+</div><!-- #wrapper end -->

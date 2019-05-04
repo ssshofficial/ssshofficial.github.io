@@ -800,18 +800,26 @@
 </div>
 
 
-						<div class="slider-parallax-inner">
-							<div class="full-screen force-full-screen section nopadding nomargin noborder ohidden">
-								<div class="container clearfix">&nbsp;</div>
-								<div class="video-wrap">
-									<video poster="/images/videos/cover.png" preload="auto" loop autoplay muted>
-										<source src='/images/videos/cover_min.mp4' type='video/mp4' />
-										<source src='images/videos/cover_min.webm' type='video/webm' />
-									</video>
-									<div class="video-overlay" style="background-color: rgba(0,0,0,0.55);"></div>
-								</div>
-							</div>
-						</div>
+						<video poster="images/videos/cover.png" preload="auto" controls style="display: block; width: 100%;" muted autoplay>
+  <source src='images/videos/cover.webm' type='video/webm' />
+  <source src='images/videos/cover.mp4' type='video/mp4' />
+</video>
+
+<div class="divider"><i class="icon-circle"></i></div>
+
+<!-- <div class="slider-parallax-inner">
+  <div class="full-screen force-full-screen section nopadding nomargin noborder ohidden">
+    <div class="container clearfix">&nbsp;</div>
+    <div class="video-wrap">
+      <video poster="/images/videos/cover.png" preload="auto" loop autoplay muted>
+        <source src='/images/videos/cover_min.mp4' type='video/mp4' />
+        <source src='images/videos/cover_min.webm' type='video/webm' />
+      </video>
+      <div class="video-overlay" style="background-color: rgba(0,0,0,0.55);"></div>
+    </div>
+  </div>
+</div> -->
+
 
 				<div id="section-locations" class="heading-block title-center topmargin-lg page-section">
 					<h2>Locations.</h2>
@@ -1079,7 +1087,7 @@
       // SET THE JUMP AHEAD VIA THE QUICK JUMP  (15000 == 15 sec)
       // DONT FORGET TO DEFINE THE CONTAINER ID
 
-      var targetdate =  new Date(2019,5,10,19)//new Date().getTime() + 864000000 // i.e. '2015/12/31 24:00',
+      var targetdate =  new Date(2019,4,10,19)//new Date().getTime() + 864000000 // i.e. '2015/12/31 24:00',
         slidechanges = [
                 { days:0, hours:0, minutes:0, seconds:6, slide:2},
                 { days:0, hours:0, minutes:0, seconds:0, slide:3}

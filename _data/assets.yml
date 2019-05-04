@@ -10,6 +10,9 @@ css:
    - https://use.fontawesome.com/releases/v5.2.0/css/all.css
    - /assets/css/colors.css
    - /assets/css/twentytwenty.css
+   - /include/rs-plugin/css/settings.css
+   - /include/rs-plugin/css/layers.css
+   - /include/rs-plugin/css/navigation.css
 
 
 js:
